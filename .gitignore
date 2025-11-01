@@ -1,0 +1,36 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Credentials
+cle-google-sheet-api.json
+*.pem
+*.key
+credentials.json
+
+# Temporary files
+*.tmp
+*.log
+*.csv
+
+# Build tools (development only)
+*.py
+
+# Documentation locale
+SEO-STRATEGY.md
+"Cocon Sémantique L'Italien - Feuille 1.csv"
