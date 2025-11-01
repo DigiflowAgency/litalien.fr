@@ -44,6 +44,20 @@
 
   <!-- Pages Villes - Niveau 1 (Priorité MAX) -->
   <url>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/aix-en-provence.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/le-tholonet.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/marseille.html</loc>
     <lastmod>2025-10-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -72,6 +86,13 @@
   </url>
 
   <!-- Pages Villes - Niveau 2 (Priorité HAUTE) -->
+  <url>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/palette.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/rousset.html</loc>
     <lastmod>2025-10-31</lastmod>
