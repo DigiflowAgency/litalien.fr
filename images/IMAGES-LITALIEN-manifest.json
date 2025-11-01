@@ -1,0 +1,666 @@
+{
+  "batchId": "38ff376a-ca41-48f0-8d85-d1a8571b7b11",
+  "batchName": "IMAGES-LITALIEN",
+  "createdAt": "2025-10-31T14:15:06.421Z",
+  "totalImages": 73,
+  "baseUrl": "https://image-flow.fr",
+  "images": [
+    {
+      "title": "Plat19",
+      "url": "https://image-flow.fr/uploads/plat19-3977156e-9624-4470-a935-702d2d3b14fc.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat19-3977156e-9624-4470-a935-702d2d3b14fc_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 45918
+    },
+    {
+      "title": "Plat23",
+      "url": "https://image-flow.fr/uploads/plat23-78a896cd-1a98-448c-a488-cc3eafd6dbc5.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat23-78a896cd-1a98-448c-a488-cc3eafd6dbc5_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 40234
+    },
+    {
+      "title": "Plat35",
+      "url": "https://image-flow.fr/uploads/plat35-f260dc6f-ba7a-47a4-a151-2d6a51c0ee43.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat35-f260dc6f-ba7a-47a4-a151-2d6a51c0ee43_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 20180
+    },
+    {
+      "title": "Plat42",
+      "url": "https://image-flow.fr/uploads/plat42-8270e535-6dbd-44b8-8578-26106ce9dc69.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat42-8270e535-6dbd-44b8-8578-26106ce9dc69_thumb.webp",
+      "width": 510,
+      "height": 510,
+      "format": "webp",
+      "size": 33828
+    },
+    {
+      "title": "Plat15",
+      "url": "https://image-flow.fr/uploads/plat15-53a7419e-0e6c-40c0-b168-92206d62d9f6.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat15-53a7419e-0e6c-40c0-b168-92206d62d9f6_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 36458
+    },
+    {
+      "title": "Deco7",
+      "url": "https://image-flow.fr/uploads/deco7-6842e8ae-b74e-454d-b9cf-340a61297825.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco7-6842e8ae-b74e-454d-b9cf-340a61297825_thumb.webp",
+      "width": 510,
+      "height": 510,
+      "format": "webp",
+      "size": 60940
+    },
+    {
+      "title": "Plat7",
+      "url": "https://image-flow.fr/uploads/plat7-ccd80578-f0c4-450a-95fb-78056014c242.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat7-ccd80578-f0c4-450a-95fb-78056014c242_thumb.webp",
+      "width": 680,
+      "height": 449,
+      "format": "webp",
+      "size": 62068
+    },
+    {
+      "title": "Plat39",
+      "url": "https://image-flow.fr/uploads/plat39-c789b10c-2695-462f-bc86-28d3cbb0a6e7.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat39-c789b10c-2695-462f-bc86-28d3cbb0a6e7_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 41762
+    },
+    {
+      "title": "Plat38",
+      "url": "https://image-flow.fr/uploads/plat38-7001e775-0fb3-4d64-b8c7-49a33b26b348.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat38-7001e775-0fb3-4d64-b8c7-49a33b26b348_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 31902
+    },
+    {
+      "title": "Plat6",
+      "url": "https://image-flow.fr/uploads/plat6-dc963d6e-873c-4fd8-8c87-c964e113a40d.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat6-dc963d6e-873c-4fd8-8c87-c964e113a40d_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 30844
+    },
+    {
+      "title": "Deco6",
+      "url": "https://image-flow.fr/uploads/deco6-29d053bb-8dd6-4980-bec7-95ff2301d747.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco6-29d053bb-8dd6-4980-bec7-95ff2301d747_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 33602
+    },
+    {
+      "title": "Plat14",
+      "url": "https://image-flow.fr/uploads/plat14-8c5076ba-9a9a-4b34-a6a6-221ed1d9611f.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat14-8c5076ba-9a9a-4b34-a6a6-221ed1d9611f_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 28150
+    },
+    {
+      "title": "Plat43",
+      "url": "https://image-flow.fr/uploads/plat43-b3e2f315-0172-453c-a58b-4b60872a8b7f.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat43-b3e2f315-0172-453c-a58b-4b60872a8b7f_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 28008
+    },
+    {
+      "title": "Plat34",
+      "url": "https://image-flow.fr/uploads/plat34-6fa8929d-ec76-4ab8-a8ad-e63da331b337.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat34-6fa8929d-ec76-4ab8-a8ad-e63da331b337_thumb.webp",
+      "width": 287,
+      "height": 510,
+      "format": "webp",
+      "size": 19320
+    },
+    {
+      "title": "Dessert1",
+      "url": "https://image-flow.fr/uploads/dessert1-e77330f4-c32e-401b-a95a-6e1a3338c9e6.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert1-e77330f4-c32e-401b-a95a-6e1a3338c9e6_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 37730
+    },
+    {
+      "title": "Plat22",
+      "url": "https://image-flow.fr/uploads/plat22-7a411a5d-f78c-47b6-8c37-9791e8d23fb1.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat22-7a411a5d-f78c-47b6-8c37-9791e8d23fb1_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 23824
+    },
+    {
+      "title": "Plat18",
+      "url": "https://image-flow.fr/uploads/plat18-7db8fe71-86f2-40e0-8277-18023912a6c8.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat18-7db8fe71-86f2-40e0-8277-18023912a6c8_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 25274
+    },
+    {
+      "title": "Plat44",
+      "url": "https://image-flow.fr/uploads/plat44-1f38fc08-ab8a-4640-8362-732206d0f5e9.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat44-1f38fc08-ab8a-4640-8362-732206d0f5e9_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 35710
+    },
+    {
+      "title": "Plat13",
+      "url": "https://image-flow.fr/uploads/plat13-df85a0a1-f4b7-4c08-bb05-aa231b9a2d0d.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat13-df85a0a1-f4b7-4c08-bb05-aa231b9a2d0d_thumb.webp",
+      "width": 418,
+      "height": 510,
+      "format": "webp",
+      "size": 33624
+    },
+    {
+      "title": "Deco1",
+      "url": "https://image-flow.fr/uploads/deco1-7e79654c-a165-4508-9859-c5a23dda060e.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco1-7e79654c-a165-4508-9859-c5a23dda060e_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 33602
+    },
+    {
+      "title": "Plat29",
+      "url": "https://image-flow.fr/uploads/plat29-e5ba775e-5152-4820-bff5-fa8e9613dcaf.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat29-e5ba775e-5152-4820-bff5-fa8e9613dcaf_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 28950
+    },
+    {
+      "title": "Plat1",
+      "url": "https://image-flow.fr/uploads/plat1-b61a30b6-e06f-4428-ac19-03f149bd96c1.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat1-b61a30b6-e06f-4428-ac19-03f149bd96c1_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 41558
+    },
+    {
+      "title": "Deco12",
+      "url": "https://image-flow.fr/uploads/deco12-53f8c9b8-20a8-4c06-ab1f-28f9d2edc2ec.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco12-53f8c9b8-20a8-4c06-ab1f-28f9d2edc2ec_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 53070
+    },
+    {
+      "title": "Plat48",
+      "url": "https://image-flow.fr/uploads/plat48-b036b6b5-3965-4526-938d-fa705351e615.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat48-b036b6b5-3965-4526-938d-fa705351e615_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 20380
+    },
+    {
+      "title": "Plat25",
+      "url": "https://image-flow.fr/uploads/plat25-2bedfdb9-00cf-42f5-b6de-04e63a628543.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat25-2bedfdb9-00cf-42f5-b6de-04e63a628543_thumb.webp",
+      "width": 509,
+      "height": 510,
+      "format": "webp",
+      "size": 41332
+    },
+    {
+      "title": "Dessert6",
+      "url": "https://image-flow.fr/uploads/dessert6-d369b832-00a0-4ca9-a001-10efff61f869.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert6-d369b832-00a0-4ca9-a001-10efff61f869_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 30034
+    },
+    {
+      "title": "Plat33",
+      "url": "https://image-flow.fr/uploads/plat33-38c196d0-7d08-4e7f-b726-52d7b254e8d6.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat33-38c196d0-7d08-4e7f-b726-52d7b254e8d6_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 35680
+    },
+    {
+      "title": "Plat32",
+      "url": "https://image-flow.fr/uploads/plat32-a3ee9fca-705d-43ac-99db-c99b71d4c477.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat32-a3ee9fca-705d-43ac-99db-c99b71d4c477_thumb.webp",
+      "width": 680,
+      "height": 382,
+      "format": "webp",
+      "size": 38296
+    },
+    {
+      "title": "Dessert7",
+      "url": "https://image-flow.fr/uploads/dessert7-33094de4-2aaa-4d21-81fc-52df0a99f48b.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert7-33094de4-2aaa-4d21-81fc-52df0a99f48b_thumb.webp",
+      "width": 287,
+      "height": 510,
+      "format": "webp",
+      "size": 26266
+    },
+    {
+      "title": "Plat24",
+      "url": "https://image-flow.fr/uploads/plat24-d1935778-163a-4177-919c-2c3544522bdf.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat24-d1935778-163a-4177-919c-2c3544522bdf_thumb.webp",
+      "width": 680,
+      "height": 510,
+      "format": "webp",
+      "size": 70548
+    },
+    {
+      "title": "Plat49",
+      "url": "https://image-flow.fr/uploads/plat49-b2087ed9-d0f5-4b78-8613-79111d143657.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat49-b2087ed9-d0f5-4b78-8613-79111d143657_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 38178
+    },
+    {
+      "title": "Deco13",
+      "url": "https://image-flow.fr/uploads/deco13-67d0fad9-08df-477b-9d25-55405050c4be.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco13-67d0fad9-08df-477b-9d25-55405050c4be_thumb.webp",
+      "width": 510,
+      "height": 510,
+      "format": "webp",
+      "size": 77446
+    },
+    {
+      "title": "Dessert10",
+      "url": "https://image-flow.fr/uploads/dessert10-70762369-de9f-4e62-97e9-34b10c207e0c.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert10-70762369-de9f-4e62-97e9-34b10c207e0c_thumb.webp",
+      "width": 680,
+      "height": 510,
+      "format": "webp",
+      "size": 63674
+    },
+    {
+      "title": "Plat28",
+      "url": "https://image-flow.fr/uploads/plat28-9cb1fb02-6a41-4fd3-a290-f4be9f8beb4e.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat28-9cb1fb02-6a41-4fd3-a290-f4be9f8beb4e_thumb.webp",
+      "width": 680,
+      "height": 410,
+      "format": "webp",
+      "size": 41176
+    },
+    {
+      "title": "Plat12",
+      "url": "https://image-flow.fr/uploads/plat12-5df69d98-3a19-437f-b85d-bc59e9a2ecb3.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat12-5df69d98-3a19-437f-b85d-bc59e9a2ecb3_thumb.webp",
+      "width": 381,
+      "height": 510,
+      "format": "webp",
+      "size": 23582
+    },
+    {
+      "title": "Plat45",
+      "url": "https://image-flow.fr/uploads/plat45-36a5c99c-96ab-4d46-85d2-f9c84a752ac6.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat45-36a5c99c-96ab-4d46-85d2-f9c84a752ac6_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 20416
+    },
+    {
+      "title": "Dessert8",
+      "url": "https://image-flow.fr/uploads/dessert8-2b505fa6-0310-4c3e-a30c-76c44ff8eee1.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert8-2b505fa6-0310-4c3e-a30c-76c44ff8eee1_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 29640
+    },
+    {
+      "title": "Plat3",
+      "url": "https://image-flow.fr/uploads/plat3-899935ed-e52d-42d6-bcb9-74b696f29832.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat3-899935ed-e52d-42d6-bcb9-74b696f29832_thumb.webp",
+      "width": 433,
+      "height": 510,
+      "format": "webp",
+      "size": 39158
+    },
+    {
+      "title": "Plat50",
+      "url": "https://image-flow.fr/uploads/plat50-89956939-f2e9-4e28-9399-10a3e3579be2.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat50-89956939-f2e9-4e28-9399-10a3e3579be2_thumb.webp",
+      "width": 287,
+      "height": 510,
+      "format": "webp",
+      "size": 19076
+    },
+    {
+      "title": "Deco3",
+      "url": "https://image-flow.fr/uploads/deco3-e92fc353-6199-4446-ae69-011fbb9a8ce5.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco3-e92fc353-6199-4446-ae69-011fbb9a8ce5_thumb.webp",
+      "width": 680,
+      "height": 453,
+      "format": "webp",
+      "size": 39564
+    },
+    {
+      "title": "Plat11",
+      "url": "https://image-flow.fr/uploads/plat11-ec4072cb-782b-4a78-8c25-812d36c7ac2d.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat11-ec4072cb-782b-4a78-8c25-812d36c7ac2d_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 28726
+    },
+    {
+      "title": "Plat46",
+      "url": "https://image-flow.fr/uploads/plat46-44c85ad6-c006-4efa-b345-2c30835778c4.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat46-44c85ad6-c006-4efa-b345-2c30835778c4_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 31932
+    },
+    {
+      "title": "Plat31",
+      "url": "https://image-flow.fr/uploads/plat31-ccd84d9a-5a94-44fd-a5e1-95a342a84605.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat31-ccd84d9a-5a94-44fd-a5e1-95a342a84605_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 31722
+    },
+    {
+      "title": "Dessert4",
+      "url": "https://image-flow.fr/uploads/dessert4-208e2797-5fea-47e7-9a60-cafd1d486397.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert4-208e2797-5fea-47e7-9a60-cafd1d486397_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 28240
+    },
+    {
+      "title": "Plat27",
+      "url": "https://image-flow.fr/uploads/plat27-5fec4865-0fcf-4132-a8bd-b1228eaba28c.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat27-5fec4865-0fcf-4132-a8bd-b1228eaba28c_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 26864
+    },
+    {
+      "title": "Deco10",
+      "url": "https://image-flow.fr/uploads/deco10-bff15ac2-372e-42a1-8228-7e57705bcd45.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco10-bff15ac2-372e-42a1-8228-7e57705bcd45_thumb.webp",
+      "width": 510,
+      "height": 510,
+      "format": "webp",
+      "size": 46022
+    },
+    {
+      "title": "Deco11",
+      "url": "https://image-flow.fr/uploads/deco11-60f8105e-f200-40a2-bdc4-c7ca9401fbe8.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco11-60f8105e-f200-40a2-bdc4-c7ca9401fbe8_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 32176
+    },
+    {
+      "title": "Plat26",
+      "url": "https://image-flow.fr/uploads/plat26-bf49d638-e735-4e86-a4db-093630749673.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat26-bf49d638-e735-4e86-a4db-093630749673_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 33734
+    },
+    {
+      "title": "Dessert5",
+      "url": "https://image-flow.fr/uploads/dessert5-cbfe1a6d-db99-4af9-9cf1-954971401b00.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert5-cbfe1a6d-db99-4af9-9cf1-954971401b00_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 23044
+    },
+    {
+      "title": "Plat30",
+      "url": "https://image-flow.fr/uploads/plat30-934e3a14-e675-48b0-8aac-ac686f860744.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat30-934e3a14-e675-48b0-8aac-ac686f860744_thumb.webp",
+      "width": 287,
+      "height": 510,
+      "format": "webp",
+      "size": 30898
+    },
+    {
+      "title": "Plat47",
+      "url": "https://image-flow.fr/uploads/plat47-2f54a477-6a5e-4418-9a87-3cf8bef93778.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat47-2f54a477-6a5e-4418-9a87-3cf8bef93778_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 25846
+    },
+    {
+      "title": "Plat10",
+      "url": "https://image-flow.fr/uploads/plat10-0bb96035-bcf2-4bc6-b9f0-900d4dfa0f07.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat10-0bb96035-bcf2-4bc6-b9f0-900d4dfa0f07_thumb.webp",
+      "width": 651,
+      "height": 510,
+      "format": "webp",
+      "size": 68108
+    },
+    {
+      "title": "Deco2",
+      "url": "https://image-flow.fr/uploads/deco2-c84422d5-d0da-4f65-92b2-fcfe52d8a132.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco2-c84422d5-d0da-4f65-92b2-fcfe52d8a132_thumb.webp",
+      "width": 680,
+      "height": 453,
+      "format": "webp",
+      "size": 39364
+    },
+    {
+      "title": "Plat2",
+      "url": "https://image-flow.fr/uploads/plat2-89d400ea-0948-4b40-a02f-5310f45c3ff3.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat2-89d400ea-0948-4b40-a02f-5310f45c3ff3_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 33066
+    },
+    {
+      "title": "Dessert9",
+      "url": "https://image-flow.fr/uploads/dessert9-ac11a2ef-3a3d-4774-abea-710305eeb78c.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert9-ac11a2ef-3a3d-4774-abea-710305eeb78c_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 35912
+    },
+    {
+      "title": "Plat37",
+      "url": "https://image-flow.fr/uploads/plat37-1fa1d901-b344-4161-a341-3cc8019b8d3a.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat37-1fa1d901-b344-4161-a341-3cc8019b8d3a_thumb.webp",
+      "width": 621,
+      "height": 510,
+      "format": "webp",
+      "size": 27646
+    },
+    {
+      "title": "Dessert2",
+      "url": "https://image-flow.fr/uploads/dessert2-85bd6970-ef15-4474-87bf-208aba8d62b8.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert2-85bd6970-ef15-4474-87bf-208aba8d62b8_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 23044
+    },
+    {
+      "title": "Plat9",
+      "url": "https://image-flow.fr/uploads/plat9-3e22921f-387c-4ce8-8a42-ad30f605f8e9.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat9-3e22921f-387c-4ce8-8a42-ad30f605f8e9_thumb.webp",
+      "width": 680,
+      "height": 449,
+      "format": "webp",
+      "size": 62068
+    },
+    {
+      "title": "Plat21",
+      "url": "https://image-flow.fr/uploads/plat21-d8ab8160-4955-4edb-a508-f804f132df08.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat21-d8ab8160-4955-4edb-a508-f804f132df08_thumb.webp",
+      "width": 680,
+      "height": 383,
+      "format": "webp",
+      "size": 43416
+    },
+    {
+      "title": "Deco9",
+      "url": "https://image-flow.fr/uploads/deco9-2e946f00-e192-419e-9486-c30b430c2d43.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco9-2e946f00-e192-419e-9486-c30b430c2d43_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 37816
+    },
+    {
+      "title": "Plat5",
+      "url": "https://image-flow.fr/uploads/plat5-fc97dd8d-f6b7-473c-8b4b-4157ec7a80a2.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat5-fc97dd8d-f6b7-473c-8b4b-4157ec7a80a2_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 39628
+    },
+    {
+      "title": "Deco5",
+      "url": "https://image-flow.fr/uploads/deco5-cd2a2a38-dabe-4b21-b497-fe52dc6c33af.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco5-cd2a2a38-dabe-4b21-b497-fe52dc6c33af_thumb.webp",
+      "width": 680,
+      "height": 453,
+      "format": "webp",
+      "size": 50816
+    },
+    {
+      "title": "Plat17",
+      "url": "https://image-flow.fr/uploads/plat17-aea347d8-e03f-4b47-ae65-74911e21a8af.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat17-aea347d8-e03f-4b47-ae65-74911e21a8af_thumb.webp",
+      "width": 384,
+      "height": 510,
+      "format": "webp",
+      "size": 28646
+    },
+    {
+      "title": "Plat40",
+      "url": "https://image-flow.fr/uploads/plat40-729b06c2-b402-4ed6-85ec-2cc33505ea6c.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat40-729b06c2-b402-4ed6-85ec-2cc33505ea6c_thumb.webp",
+      "width": 510,
+      "height": 510,
+      "format": "webp",
+      "size": 69936
+    },
+    {
+      "title": "Plat41",
+      "url": "https://image-flow.fr/uploads/plat41-04654060-2fa1-4437-81e0-b01aff4a9f77.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat41-04654060-2fa1-4437-81e0-b01aff4a9f77_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 33754
+    },
+    {
+      "title": "Plat16",
+      "url": "https://image-flow.fr/uploads/plat16-87eabf8a-3990-41dd-ad7d-f7ba31b874f0.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat16-87eabf8a-3990-41dd-ad7d-f7ba31b874f0_thumb.webp",
+      "width": 316,
+      "height": 510,
+      "format": "webp",
+      "size": 25888
+    },
+    {
+      "title": "Deco4",
+      "url": "https://image-flow.fr/uploads/deco4-2db5ff91-86fd-48f7-b846-2816fb737f4d.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco4-2db5ff91-86fd-48f7-b846-2816fb737f4d_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 41524
+    },
+    {
+      "title": "Plat4",
+      "url": "https://image-flow.fr/uploads/plat4-cfa3bf71-161f-4d37-9a00-7257f917294f.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat4-cfa3bf71-161f-4d37-9a00-7257f917294f_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 22142
+    },
+    {
+      "title": "Deco8",
+      "url": "https://image-flow.fr/uploads/deco8-914990de-0627-4413-86ca-71e28802c591.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/deco8-914990de-0627-4413-86ca-71e28802c591_thumb.webp",
+      "width": 513,
+      "height": 510,
+      "format": "webp",
+      "size": 51416
+    },
+    {
+      "title": "Plat20",
+      "url": "https://image-flow.fr/uploads/plat20-e9d6138c-0d06-4c62-a75b-965eaef23384.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat20-e9d6138c-0d06-4c62-a75b-965eaef23384_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 24034
+    },
+    {
+      "title": "Plat8",
+      "url": "https://image-flow.fr/uploads/plat8-ad71f13a-7357-4808-9e31-f1870103fbc9.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat8-ad71f13a-7357-4808-9e31-f1870103fbc9_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 37088
+    },
+    {
+      "title": "Dessert3",
+      "url": "https://image-flow.fr/uploads/dessert3-50ad3060-f31f-45a7-bc0d-8ed684258e02.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/dessert3-50ad3060-f31f-45a7-bc0d-8ed684258e02_thumb.webp",
+      "width": 680,
+      "height": 510,
+      "format": "webp",
+      "size": 43574
+    },
+    {
+      "title": "Plat36",
+      "url": "https://image-flow.fr/uploads/plat36-22e3a554-c8a6-4a02-a68c-5be36c15e0a1.webp",
+      "thumbnailUrl": "https://image-flow.fr/uploads/plat36-22e3a554-c8a6-4a02-a68c-5be36c15e0a1_thumb.webp",
+      "width": 382,
+      "height": 510,
+      "format": "webp",
+      "size": 37334
+    }
+  ]
+}

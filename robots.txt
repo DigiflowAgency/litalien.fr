@@ -1,0 +1,42 @@
+# robots.txt pour L'Italien Restaurant
+# Site: https://www.litalien.fr
+# Optimisé pour SEO et indexation Google
+
+# Autoriser tous les crawlers principaux
+User-agent: *
+Allow: /
+
+# Bloquer les mauvais bots et crawlers inutiles
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Autoriser explicitement Googlebot
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Autoriser Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Bloquer l'accès aux fichiers sensibles (même s'ils n'existent pas encore)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Référence au sitemap
+Sitemap: https://www.litalien.fr/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge (optionnel)
+Crawl-delay: 1
