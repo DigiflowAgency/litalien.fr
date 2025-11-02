@@ -5,7 +5,7 @@ require('dotenv').config();
 const { google } = require('googleapis');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 0; // 0 = trouve automatiquement un port libre
 
 // Middleware
 app.use(cors());
@@ -297,7 +297,8 @@ app.get('/carte-boissons', (req, res) => {
 // =============================================================================
 
 const os = require('os');
-app.listen(PORT, '0.0.0.0', () => {
+const server = app.listen(PORT, '0.0.0.0', () => {
+    const actualPort = server.address().port; // Récupère le port réel assigné
     const networkInterfaces = os.networkInterfaces();
     const ip = Object.values(networkInterfaces)
         .flat()
@@ -308,11 +309,11 @@ app.listen(PORT, '0.0.0.0', () => {
 ║          🍝 L'Italien - Serveur démarré! 🍝            ║
 ╠════════════════════════════════════════════════════════╣
 ║                                                        ║
-║  Local:    http://localhost:${PORT}                       ║
-║  Network:  http://${ip || 'N/A'}:${PORT}                      ║
+║  Local:    http://localhost:${actualPort}                       ║
+║  Network:  http://${ip || 'N/A'}:${actualPort}                      ║
 ║                                                        ║
-║  API Menu:      http://localhost:${PORT}/api/menu         ║
-║  API Boissons:  http://localhost:${PORT}/api/boissons     ║
+║  API Menu:      http://localhost:${actualPort}/api/menu         ║
+║  API Boissons:  http://localhost:${actualPort}/api/boissons     ║
 ║                                                        ║
 ╚════════════════════════════════════════════════════════╝
     `);
