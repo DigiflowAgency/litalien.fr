@@ -5,7 +5,7 @@ require('dotenv').config();
 const { google } = require('googleapis');
 
 const app = express();
-const PORT = process.env.PORT || 3021; // Port 3021 par défaut (juste après la plage 3000-3020)
+const PORT = process.env.PORT || 3006; // Port 3006 par défaut (port libre dans la plage 3000-3020)
 
 // Middleware
 app.use(cors());
