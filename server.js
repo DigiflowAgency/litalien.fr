@@ -1,7 +1,36 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-require('dotenv').config();
+const fs = require('fs');
+
+// Charger les variables d'environnement avec le chemin explicite
+const dotenv = require('dotenv');
+const envPath = path.join(__dirname, '.env');
+
+// Essayer de charger le .env
+dotenv.config({ path: envPath });
+
+// Si les variables ne sont toujours pas chargées, essayer de lire le fichier directement
+if (!process.env.GOOGLE_SHEET_ID || !process.env.GOOGLE_CREDENTIALS) {
+    if (fs.existsSync(envPath)) {
+        const envContent = fs.readFileSync(envPath, 'utf8');
+        const envVars = {};
+
+        envContent.split('\n').forEach(line => {
+            const trimmedLine = line.trim();
+            if (trimmedLine && !trimmedLine.startsWith('#')) {
+                const equalIndex = trimmedLine.indexOf('=');
+                if (equalIndex > 0) {
+                    const key = trimmedLine.substring(0, equalIndex).trim();
+                    const value = trimmedLine.substring(equalIndex + 1).trim();
+                    envVars[key] = value;
+                    process.env[key] = value;
+                }
+            }
+        });
+    }
+}
+
 const { google } = require('googleapis');
 
 const app = express();
