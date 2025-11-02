@@ -321,6 +321,42 @@ app.get('/carte-boissons', (req, res) => {
     res.sendFile(path.join(__dirname, 'carte-boissons.html'));
 });
 
+// Pages légales
+app.get('/mentions-legales', (req, res) => {
+    res.sendFile(path.join(__dirname, 'mentions-legales.html'));
+});
+
+app.get('/politique-confidentialite', (req, res) => {
+    res.sendFile(path.join(__dirname, 'politique-confidentialite.html'));
+});
+
+// Pages villes SEO
+const villes = [
+    'aix-en-provence', 'le-tholonet', 'marseille', 'salon-de-provence', 'gardanne',
+    'pertuis', 'palette', 'rousset', 'venelles', 'bouc-bel-air', 'cabries',
+    'meyreuil', 'beaurecueil', 'saint-marc-jaumegarde', 'puyloubier', 'vitrolles',
+    'rognac', 'berre-l-etang', 'marignane', 'lambesc', 'peyrolles-en-provence',
+    'jouques', 'eguilles', 'fuveau', 'trets', 'peynier', 'chateauneuf-le-rouge'
+];
+
+villes.forEach(ville => {
+    app.get(`/restaurant-italien-proche-aix/${ville}`, (req, res) => {
+        res.sendFile(path.join(__dirname, `restaurant-italien-proche-aix/${ville}.html`));
+    });
+});
+
+// Pages blog
+const articles = [
+    'pates-truffe-aix-en-provence', 'pates-meule-parmesan', 'gnocchis-maison-aix',
+    'meilleur-restaurant-italien-aix', 'ou-manger-italien-aix'
+];
+
+articles.forEach(article => {
+    app.get(`/blog/${article}`, (req, res) => {
+        res.sendFile(path.join(__dirname, `blog/${article}.html`));
+    });
+});
+
 // =============================================================================
 // DÉMARRAGE DU SERVEUR
 // =============================================================================

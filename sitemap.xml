@@ -7,29 +7,29 @@
   <!-- Page d'accueil - Priorité maximale -->
   <url>
     <loc>https://www.litalien.fr/</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Pages existantes -->
   <url>
-    <loc>https://www.litalien.fr/carte-boissons.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/carte-boissons</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/mentions-legales.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/mentions-legales</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/politique-confidentialite.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/politique-confidentialite</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -37,200 +37,200 @@
   <!-- Hub SEO Local -->
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Pages Villes - Niveau 1 (Priorité MAX) -->
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/aix-en-provence.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/aix-en-provence</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/le-tholonet.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/le-tholonet</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/marseille.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/marseille</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/salon-de-provence.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/salon-de-provence</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/gardanne.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/gardanne</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/pertuis.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/pertuis</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Pages Villes - Niveau 2 (Priorité HAUTE) -->
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/palette.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/palette</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/rousset.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/rousset</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/venelles.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/venelles</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/bouc-bel-air.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/bouc-bel-air</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/cabries.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/cabries</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Pages Villes - Niveau 3 (Priorité MOYENNE) -->
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/meyreuil.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/meyreuil</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/beaurecueil.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/beaurecueil</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/saint-marc-jaumegarde.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/saint-marc-jaumegarde</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/puyloubier.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/puyloubier</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Pages Villes - Niveau 4 (Extension) -->
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/vitrolles.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/vitrolles</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/rognac.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/rognac</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/berre-l-etang.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/berre-l-etang</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/marignane.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/marignane</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/lambesc.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/lambesc</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/peyrolles-en-provence.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/peyrolles-en-provence</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/jouques.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/jouques</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/eguilles.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/eguilles</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/fuveau.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/fuveau</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/trets.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/trets</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/peynier.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/peynier</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/chateauneuf-le-rouge.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/chateauneuf-le-rouge</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -238,87 +238,43 @@
   <!-- Blog Hub -->
   <url>
     <loc>https://www.litalien.fr/blog/</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Articles Blog - Prioritaires -->
   <url>
-    <loc>https://www.litalien.fr/blog/pates-truffe-aix-en-provence.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/blog/pates-truffe-aix-en-provence</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/blog/pates-meule-parmesan.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/blog/pates-meule-parmesan</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/blog/gnocchis-maison-aix.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/blog/gnocchis-maison-aix</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/blog/meilleur-restaurant-italien-aix.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/blog/meilleur-restaurant-italien-aix</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.litalien.fr/blog/ou-manger-italien-aix.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Spécialités Hub -->
-  <url>
-    <loc>https://www.litalien.fr/specialites/</loc>
-    <lastmod>2025-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Pages Spécialités -->
-  <url>
-    <loc>https://www.litalien.fr/specialites/pates-fraiches.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.litalien.fr/specialites/plats-truffe.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.litalien.fr/specialites/burrata-burratina.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.litalien.fr/specialites/risotto.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.litalien.fr/specialites/desserts-italiens.html</loc>
-    <lastmod>2025-10-31</lastmod>
+    <loc>https://www.litalien.fr/blog/ou-manger-italien-aix</loc>
+    <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

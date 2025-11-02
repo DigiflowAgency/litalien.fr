@@ -36,12 +36,32 @@
     /**
      * Crée le HTML pour un élément de boisson
      */
-    function creerElementBoisson(boisson) {
+    function creerElementBoisson(boisson, hasMultiplePrices = false) {
         const menuContainer = document.createElement('div');
         menuContainer.className = 'w-layout-grid menu_container';
 
         const nomProduit = formaterNomProduit(boisson);
         const hasDescription = boisson.description && boisson.description.trim() !== '';
+
+        // Détecter si le prix contient plusieurs valeurs (verre + bouteille)
+        const prixParts = boisson.prix.split('/').map(p => p.trim());
+        const hasDualPrice = prixParts.length > 1 || hasMultiplePrices;
+
+        let priceHTML;
+        if (hasDualPrice && prixParts.length > 1) {
+            priceHTML = `
+                <div class="element_price-container double">
+                    <div class="price"><span class="price-label">Verre:</span> ${prixParts[0]}</div>
+                    <div class="price"><span class="price-label">Btl:</span> ${prixParts[1]}</div>
+                </div>
+            `;
+        } else {
+            priceHTML = `
+                <div class="element_price-container">
+                    <div class="price">${boisson.prix}</div>
+                </div>
+            `;
+        }
 
         menuContainer.innerHTML = `
             <div class="menu_element-container">
@@ -50,9 +70,7 @@
                         <div class="element_name-text">${nomProduit.toUpperCase()}</div>
                     </div>
                     <div class="element_line"></div>
-                    <div class="element_price-container">
-                        <div class="price">${boisson.prix}</div>
-                    </div>
+                    ${priceHTML}
                 </div>
                 ${hasDescription ? `
                 <div class="descriptive_element-container">
@@ -119,7 +137,12 @@
         // Puis afficher les autres sous-catégories
         Object.keys(groupes).forEach(sousCat => {
             if (sousCat !== '_sans_sous_cat') {
-                // On pourrait ajouter un sous-titre ici si nécessaire
+                // Ajouter un titre de sous-catégorie
+                const sousCatTitle = document.createElement('div');
+                sousCatTitle.className = 'boisson_sous-cat';
+                sousCatTitle.textContent = sousCat.toUpperCase();
+                boissonWrapper.appendChild(sousCatTitle);
+
                 groupes[sousCat].forEach(boisson => {
                     const elementBoisson = creerElementBoisson(boisson);
                     boissonWrapper.appendChild(elementBoisson);
