@@ -2067,10 +2067,16 @@ if (btnGlobal && italienMusic) {
   window.addEventListener("load", function () {
     // ▶️ Lancement différé des vidéos Vimeo (classe : video-toggle)
     const iframes = document.querySelectorAll(".video-toggle");
-    iframes.forEach((iframe) => {                                   
+    iframes.forEach((iframe) => {
       const src = iframe.getAttribute("data-src");
       if (src) {
         iframe.setAttribute("src", src);
         iframe.removeAttribute("data-src");
       }
-    });</body></html></script></body></html>
+    });
+  });
+  </script>
+  <!-- Menu dynamique depuis Google Sheets -->
+  <script src="js/boissons-dynamique.js"></script>
+</body>
+</html>

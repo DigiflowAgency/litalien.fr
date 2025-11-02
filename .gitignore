@@ -22,6 +22,14 @@ cle-google-sheet-api.json
 *.pem
 *.key
 credentials.json
+.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
 
 # Temporary files
 *.tmp
