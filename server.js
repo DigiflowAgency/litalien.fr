@@ -5,7 +5,7 @@ require('dotenv').config();
 const { google } = require('googleapis');
 
 const app = express();
-const PORT = process.env.PORT || 0; // 0 = trouve automatiquement un port libre
+const PORT = process.env.PORT || 8080; // Port 8080 par défaut (hors de la plage 3000-3020)
 
 // Middleware
 app.use(cors());
