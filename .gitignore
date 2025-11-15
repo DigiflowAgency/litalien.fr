@@ -44,3 +44,8 @@ SEO-STRATEGY.md
 "Cocon Sémantique L'Italien - Feuille 1.csv"
 ecosystem.config.js
 start.sh
+
+# Archives Webflow (exports non nécessaires)
+*.zip
+*.webflow.zip
+archives/
