@@ -20,27 +20,38 @@
   <meta property="twitter:title" content="L'Italien - Restaurant Italien Aix-en-Provence">
   <meta property="twitter:description" content="Dégustez une vraie cuisine italienne chez L'Italien. Pâtes fraîches, truffe, burrata.">
   <meta property="twitter:image" content="https://www.litalien.fr/images/WhatsApp_Image_2025-06-06_at_12.25.16-removebg-preview.avif">
+  <!-- CSS critique en priorité -->
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/litalien-5ed904.webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/seo-pages.css" rel="stylesheet" type="text/css">
-  <link href="css/language-selector.css" rel="stylesheet" type="text/css">
+  <!-- CSS non-critique chargé en async -->
+  <link href="css/seo-pages.css" rel="stylesheet" type="text/css" media="print" onload="this.media='all'">
+  <link href="css/language-selector.css" rel="stylesheet" type="text/css" media="print" onload="this.media='all'">
   <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="60ff1a9f-7d5b-6c31-8fd1-41d64a844fb9"] {opacity:1;}html.w-mod-js:not(.w-mod-ix) [data-w-id="60ff1a9f-7d5b-6c31-8fd1-41d64a844fbb"] {opacity:1;}html.w-mod-js:not(.w-mod-ix) [data-w-id="60ff1a9f-7d5b-6c31-8fd1-41d64a844fc0"] {opacity:1;}html.w-mod-js:not(.w-mod-ix) [data-w-id="79d8f04a-bd5f-e446-4659-37aa223f808e"] {opacity:1;}html.w-mod-js:not(.w-mod-ix) [data-w-id="dc2b01c3-4158-4458-bf3a-0e7472864116"] {opacity:1;}html.w-mod-js:not(.w-mod-ix) [data-w-id="c86f171f-8fc0-1512-9f35-6b70edf6ecc0"] {opacity:1;}html.w-mod-js:not(.w-mod-ix) [data-w-id="3c441c8b-5bf4-3527-573e-3297c86a3e1e"] {opacity:1;}html.w-mod-js:not(.w-mod-ix) [data-w-id="6efb1bbc-9ff2-f9ab-cd23-cb7c056d2dc9"] {opacity:1;}}</style>
+  <!-- Preconnect pour domaines critiques (performance) -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://ajax.googleapis.com" rel="preconnect">
+  <link href="https://d3e54v103j8qbb.cloudfront.net" rel="preconnect">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic&display=swap","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic&display=swap","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic&display=swap","Raleway:regular,500,600,700,800&display=swap","Poppins:regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap","Questrial:regular&display=swap","Josefin Sans:regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic&display=swap","Nunito:regular,500,600,700,800,900&display=swap","Libre Franklin:regular,500,600,700,800,900&display=swap"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Raleway:400,500,600,700&display=swap","Poppins:400,500,600,700&display=swap"]  }});</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3W0J4XBJ91"></script>
+  <!-- Google tag (gtag.js) - Chargé en différé pour performance -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    // Charger Google Analytics après le chargement de la page
+    window.addEventListener('load', function() {
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3W0J4XBJ91';
+      document.head.appendChild(script);
 
-    gtag('config', 'G-3W0J4XBJ91');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3W0J4XBJ91');
+    });
   </script>
 
   <!-- Schema.org JSON-LD pour SEO -->
@@ -156,7 +167,19 @@
   </div>
   <div id="accueil" class="hero_section w-embed">
     <section class="hero-video">
-      <video class="hero-video__media" width="1920" height="1080" autoplay="" muted="" playsinline="" loop="" preload="auto">
+      <!-- Image statique sur mobile (économie de 5+ MB), vidéo uniquement sur desktop -->
+      <picture>
+        <!-- Desktop : vidéo (min-width: 768px) -->
+        <source media="(min-width: 768px)" srcset="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E">
+        <!-- Mobile : image statique de fond -->
+        <img class="hero-video__media hero-static-bg"
+             src="images/WhatsApp_Image_2025-06-06_at_12.25.16-removebg-preview.avif"
+             alt="Restaurant L'Italien"
+             width="1920"
+             height="1080"
+             style="object-fit: cover; filter: brightness(0.4) blur(20px); transform: scale(1.1);">
+      </picture>
+      <video class="hero-video__media hero-video-desktop" width="1920" height="1080" muted playsinline loop preload="none" poster="images/WhatsApp_Image_2025-06-06_at_12.25.16-removebg-preview.avif">
         <source src="https://www.dropbox.com/scl/fi/5b1t0rc8dh6fq91zeqn2k/video-litalien-2.mp4?rlkey=6idd8cnxyqub5cuw4p5q7e6cr&raw=1" type="video/mp4">
       </video>
       <div class="hero-video__overlay"></div>
@@ -1056,6 +1079,13 @@ a:hover {
 .hero-video { position: relative; width: 100%; height: 100vh; overflow: hidden; }
 .hero-video__media { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; object-fit: cover; transform: translate(-50%, -50%); }
 .hero-video__overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.55);}
+/* Performance mobile : vidéo cachée sur mobile, image statique à la place */
+.hero-video-desktop { display: none; }
+.hero-static-bg { display: block; }
+@media (min-width: 768px) {
+  .hero-video-desktop { display: block; }
+  .hero-static-bg { display: none; }
+}
 .hero-video__content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; color: #fff; text-align: center; padding-top: 10vh; padding-bottom: 20vh; }
 .hero-logo { width: 600px; height: auto; object-fit: contain; margin-bottom: 100px; }
 .hero-title { font-family: 'Raleway', sans-serif; font-size: clamp(2rem, 4vw, 2.6rem); font-weight: 400; margin-bottom: 20px; max-width: 1280px; line-height: 1.4; letter-spacing: 1px; }
@@ -1185,16 +1215,19 @@ if (btnGlobal && italienMusic) {
 }
 </script>
   </div>
-  <div class="zenchef-script w-embed w-script"><!--  CODE EMBED ZENCHEF  -->
+  <div class="zenchef-script w-embed w-script"><!--  CODE EMBED ZENCHEF (chargé en différé) -->
     <script>
-  ;(function (d, s, id) {
-    const el = d.getElementsByTagName(s)[0]
-    if (d.getElementById(id) || el.parentNode == null) return
-    var js = d.createElement(s)
-    js.id = id
-    js.src = 'https://sdk.zenchef.com/v1/sdk.min.js'
-    el.parentNode.insertBefore(js, el)
-  })(document, 'script', 'zenchef-sdk')
+  // Charger Zenchef après le chargement de la page pour performance
+  window.addEventListener('load', function() {
+    ;(function (d, s, id) {
+      const el = d.getElementsByTagName(s)[0]
+      if (d.getElementById(id) || el.parentNode == null) return
+      var js = d.createElement(s)
+      js.id = id
+      js.src = 'https://sdk.zenchef.com/v1/sdk.min.js'
+      el.parentNode.insertBefore(js, el)
+    })(document, 'script', 'zenchef-sdk')
+  });
 </script>
     <div class="zc-widget-config" data-restaurant="374021" data-primary-color="922833" data-position="right"></div>
 
@@ -1263,9 +1296,11 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
-  // Lecture automatique vidéo (mobile-safe)
-  const video = document.querySelector('.hero-video__media');
-  if (video) {
+  // Lecture automatique vidéo (desktop uniquement pour performance)
+  const video = document.querySelector('.hero-video-desktop');
+  if (video && window.innerWidth >= 768) {
+    // Charger et jouer la vidéo uniquement sur desktop
+    video.load();
     video.play().catch(err => {
       console.warn("Lecture impossible : ", err);
     });
