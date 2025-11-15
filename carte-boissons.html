@@ -10,6 +10,7 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/litalien-5ed904.webflow.css" rel="stylesheet" type="text/css">
   <link href="css/seo-pages.css" rel="stylesheet" type="text/css">
+  <link href="css/language-selector.css" rel="stylesheet" type="text/css">
   <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="79d8f04a-bd5f-e446-4659-37aa223f808c"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="79d8f04a-bd5f-e446-4659-37aa223f808e"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d5e68f5d-e971-5e10-c538-38d95ca060b1"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d5e68f5d-e971-5e10-c538-38d95ca060b3"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="74ca8f63-d7aa-c77e-59d0-6bb85e801049"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="74ca8f63-d7aa-c77e-59d0-6bb85e80104b"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="3eaa56b1-599b-0b2b-f3e1-9f1414223ad8"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="3eaa56b1-599b-0b2b-f3e1-9f1414223ada"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="6e0f44dc-2f90-b4c6-f0f1-bf42d50a94b3"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="6e0f44dc-2f90-b4c6-f0f1-bf42d50a94b5"] {opacity:0;}}</style>
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
@@ -27,6 +28,11 @@
 
     gtag('config', 'G-3W0J4XBJ91');
   </script>
+
+  <!-- i18n Translation System -->
+  <script src="js/translations/fr.js"></script>
+  <script src="js/translations/en.js"></script>
+  <script src="js/i18n.js"></script>
 </head>
 <body>
   <div class="wrapper-restaurant">
@@ -37,21 +43,27 @@
           <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
             <ul role="list" class="nav-menu w-list-unstyled">
               <li>
-                <a href="/" class="nav-link">ACCUEIL</a>
+                <a href="/" class="nav-link" data-i18n="nav.home">ACCUEIL</a>
               </li>
               <li></li>
               <li>
-                <a href="#menu" class="nav-link">MENU</a>
+                <a href="#menu" class="nav-link" data-i18n="nav.menu">MENU</a>
               </li>
               <li>
-                <a href="#" class="nav-link">GALERIE</a>
+                <a href="#" class="nav-link" data-i18n="nav.gallery">GALERIE</a>
               </li>
               <li>
-                <a id="CONTACT_BTN" href="#" class="nav-link">CONTACT</a>
+                <a id="CONTACT_BTN" href="#" class="nav-link" data-i18n="nav.contact">CONTACT</a>
               </li>
               <li class="mobile-margin-top-10">
                 <div class="nav-button-wrapper">
-                  <a id="booking_cta" data-zc-action="open" href="#" class="button-primary w-button">Réserver</a>
+                  <a id="booking_cta" data-zc-action="open" href="#" class="button-primary w-button" data-i18n="nav.book">Réserver</a>
+                </div>
+              </li>
+              <li class="mobile-margin-top-10">
+                <div class="language-selector">
+                  <div class="language-flag flag-fr active" data-lang="fr" aria-label="Français" role="button" tabindex="0"></div>
+                  <div class="language-flag flag-en" data-lang="en" aria-label="English" role="button" tabindex="0"></div>
                 </div>
               </li>
             </ul>
@@ -65,8 +77,8 @@
     <section id="menu" class="menu_section">
       <div class="menu_wrapper">
         <div class="subtitle_container">
-          <p data-w-id="79d8f04a-bd5f-e446-4659-37aa223f808c" class="about_subtitle">RESTAURANT L&#x27;ITALIEN</p>
-          <h2 data-w-id="79d8f04a-bd5f-e446-4659-37aa223f808e" class="rt-about-two-exper-heading">CARTE DES BOISSONS</h2>
+          <p data-w-id="79d8f04a-bd5f-e446-4659-37aa223f808c" class="about_subtitle" data-i18n="contact.subtitle">RESTAURANT L&#x27;ITALIEN</p>
+          <h2 data-w-id="79d8f04a-bd5f-e446-4659-37aa223f808e" class="rt-about-two-exper-heading" data-i18n="drinks.title">CARTE DES BOISSONS</h2>
         </div>
         <div class="boisson_wrapper">
           <div class="boisson_cat">softs</div>
@@ -943,13 +955,13 @@
       </div>
       <div class="boisson_main-wrapper double">
         <div class="subtitle_container">
-          <p data-w-id="d5e68f5d-e971-5e10-c538-38d95ca060b1" class="about_subtitle">RESTAURANT L&#x27;ITALIEN</p>
+          <p data-w-id="d5e68f5d-e971-5e10-c538-38d95ca060b1" class="about_subtitle" data-i18n="contact.subtitle">RESTAURANT L&#x27;ITALIEN</p>
           <h2 data-w-id="d5e68f5d-e971-5e10-c538-38d95ca060b3" class="rt-about-two-exper-heading">NOS BULLES</h2>
         </div>
         <div class="boisson_second-container">
           <div class="menu_price-header">
-            <div class="boisson_mention">Coupe</div>
-            <div class="boisson_mention">75cl</div>
+            <div class="boisson_mention" data-i18n="drinks.glass">Coupe</div>
+            <div class="boisson_mention" data-i18n="drinks.bottle">75cl</div>
           </div>
           <div class="w-layout-grid menu_container">
             <div class="menu_element-container">
@@ -1025,16 +1037,16 @@
       </div>
       <div class="boisson_main-wrapper double">
         <div class="subtitle_container">
-          <p data-w-id="74ca8f63-d7aa-c77e-59d0-6bb85e801049" class="about_subtitle">RESTAURANT L&#x27;ITALIEN</p>
+          <p data-w-id="74ca8f63-d7aa-c77e-59d0-6bb85e801049" class="about_subtitle" data-i18n="contact.subtitle">RESTAURANT L&#x27;ITALIEN</p>
           <h2 data-w-id="74ca8f63-d7aa-c77e-59d0-6bb85e80104b" class="rt-about-two-exper-heading">NOS VINS ROUGES</h2>
         </div>
         <div class="boisson_second-container">
           <div class="div-block-5">
-            <div class="text-block">ITALIE</div>
+            <div class="text-block" data-i18n="drinks.italy">ITALIE</div>
           </div>
           <div class="menu_price-header">
-            <div class="boisson_mention">Verre</div>
-            <div class="boisson_mention">75cl</div>
+            <div class="boisson_mention" data-i18n="drinks.glass">Verre</div>
+            <div class="boisson_mention" data-i18n="drinks.bottle">75cl</div>
           </div>
           <div class="boisson_wrapper">
             <div class="w-layout-grid menu_container">
@@ -1195,11 +1207,11 @@
         </div>
         <div class="boisson_second-container">
           <div class="div-block-5">
-            <div class="text-block">FRANCE</div>
+            <div class="text-block" data-i18n="drinks.france">FRANCE</div>
           </div>
           <div class="menu_price-header">
-            <div class="boisson_mention">Verre</div>
-            <div class="boisson_mention">75cl</div>
+            <div class="boisson_mention" data-i18n="drinks.glass">Verre</div>
+            <div class="boisson_mention" data-i18n="drinks.bottle">75cl</div>
           </div>
           <div class="boisson_wrapper">
             <div class="w-layout-grid menu_container">
@@ -1338,11 +1350,11 @@
         </div>
         <div class="boisson_second-container">
           <div class="div-block-5">
-            <div class="text-block">ITALIE</div>
+            <div class="text-block" data-i18n="drinks.italy">ITALIE</div>
           </div>
           <div class="menu_price-header">
-            <div class="boisson_mention">Verre</div>
-            <div class="boisson_mention">75cl</div>
+            <div class="boisson_mention" data-i18n="drinks.glass">Verre</div>
+            <div class="boisson_mention" data-i18n="drinks.bottle">75cl</div>
           </div>
           <div class="boisson_wrapper">
             <div class="w-layout-grid menu_container">
@@ -1377,11 +1389,11 @@
         </div>
         <div class="boisson_second-container">
           <div class="div-block-5">
-            <div class="text-block">FRANCE</div>
+            <div class="text-block" data-i18n="drinks.france">FRANCE</div>
           </div>
           <div class="menu_price-header">
-            <div class="boisson_mention">Verre</div>
-            <div class="boisson_mention">75cl</div>
+            <div class="boisson_mention" data-i18n="drinks.glass">Verre</div>
+            <div class="boisson_mention" data-i18n="drinks.bottle">75cl</div>
           </div>
           <div class="boisson_wrapper">
             <div class="w-layout-grid menu_container">
@@ -1506,11 +1518,11 @@
         </div>
         <div class="boisson_second-container">
           <div class="div-block-5">
-            <div class="text-block">FRANCE</div>
+            <div class="text-block" data-i18n="drinks.france">FRANCE</div>
           </div>
           <div class="menu_price-header">
-            <div class="boisson_mention">Verre</div>
-            <div class="boisson_mention">75cl</div>
+            <div class="boisson_mention" data-i18n="drinks.glass">Verre</div>
+            <div class="boisson_mention" data-i18n="drinks.bottle">75cl</div>
           </div>
           <div class="boisson_wrapper">
             <div class="w-layout-grid menu_container">
