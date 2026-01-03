@@ -17,6 +17,7 @@ jobs:
         username: ubuntu
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 49569
+        command_timeout: 5m
         script: |
           echo "🚀 Déploiement de litalien.fr sur Infomaniak..."
 
@@ -57,6 +58,7 @@ jobs:
         username: ubuntu
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 49148
+        command_timeout: 5m
         script: |
           echo "🚀 Déploiement de litalien.fr sur OVH..."
 
