@@ -12,6 +12,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Page L'Italien Aix-en-Provence (Backlink Recovery) -->
+  <url>
+    <loc>https://www.litalien.fr/litalien-aix-en-provence</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Pages existantes -->
   <url>
     <loc>https://www.litalien.fr/carte-boissons.html</loc>
@@ -189,13 +197,6 @@
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/lambesc.html</loc>
-    <lastmod>2025-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://www.litalien.fr/restaurant-italien-proche-aix/peyrolles-en-provence.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
