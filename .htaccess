@@ -1,0 +1,76 @@
+# =====================================================
+# REDIRECTIONS SEO - Restaurant L'Italien
+# Force www + Clean URLs (sans .html)
+# =====================================================
+
+RewriteEngine On
+
+# =====================================================
+# 1. Force HTTPS
+# =====================================================
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# =====================================================
+# 2. Force WWW (non-www vers www)
+# =====================================================
+RewriteCond %{HTTP_HOST} ^litalien\.fr$ [NC]
+RewriteRule ^(.*)$ https://www.litalien.fr/$1 [L,R=301]
+
+# =====================================================
+# 3. Supprimer .html des URLs (Clean URLs)
+# Redirige /page.html vers /page
+# =====================================================
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# =====================================================
+# 4. Servir le fichier .html sans l'extension
+# /page affiche /page.html si le fichier existe
+# =====================================================
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# =====================================================
+# 5. Trailing slash pour les dossiers
+# =====================================================
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ $1/ [R=301,L]
+
+# =====================================================
+# 6. Compression GZIP pour performance
+# =====================================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+    AddOutputFilterByType DEFLATE application/javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# =====================================================
+# 7. Cache navigateur pour performance
+# =====================================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/avif "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/html "access plus 1 day"
+</IfModule>
+
+# =====================================================
+# 8. Headers de sécurité
+# =====================================================
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
