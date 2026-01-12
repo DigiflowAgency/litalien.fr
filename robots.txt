@@ -35,6 +35,9 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /*.pdf$
 
+# Bloquer les URLs .html (utiliser les clean URLs uniquement)
+Disallow: /*.html$
+
 # Référence au sitemap
 Sitemap: https://www.litalien.fr/sitemap.xml
 
