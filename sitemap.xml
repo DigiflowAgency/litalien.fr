@@ -7,7 +7,7 @@
   <!-- Page d'accueil - Priorité maximale -->
   <url>
     <loc>https://www.litalien.fr/</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,7 +15,7 @@
   <!-- Page L'Italien Aix-en-Provence (Backlink Recovery) -->
   <url>
     <loc>https://www.litalien.fr/litalien-aix-en-provence/</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -23,21 +23,21 @@
   <!-- Pages existantes -->
   <url>
     <loc>https://www.litalien.fr/carte-boissons</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/mentions-legales</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/politique-confidentialite</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -45,7 +45,7 @@
   <!-- Hub SEO Local -->
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -53,14 +53,14 @@
   <!-- Pages Villes - Niveau 1 (Priorité MAX) - PAGES NON INDEXÉES PRIORITAIRES -->
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/aix-en-provence</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/le-tholonet</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
@@ -68,35 +68,35 @@
   <!-- PAGES NON INDEXÉES - Priorité élevée -->
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/marseille</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/pertuis</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/gardanne</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/peyrolles-en-provence</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/salon-de-provence</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
@@ -104,35 +104,35 @@
   <!-- Pages Villes - Niveau 2 (Priorité HAUTE) -->
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/palette</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/rousset</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/venelles</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/bouc-bel-air</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/cabries</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -140,28 +140,28 @@
   <!-- Pages Villes - Niveau 3 (Priorité MOYENNE) -->
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/meyreuil</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/beaurecueil</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/saint-marc-jaumegarde</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/puyloubier</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
@@ -169,77 +169,77 @@
   <!-- Pages Villes - Niveau 4 (Extension) -->
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/vitrolles</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/rognac</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/berre-l-etang</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/marignane</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/lambesc</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/jouques</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/eguilles</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/fuveau</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/trets</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/peynier</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/restaurant-italien-proche-aix/chateauneuf-le-rouge</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
@@ -247,7 +247,7 @@
   <!-- Blog Hub -->
   <url>
     <loc>https://www.litalien.fr/blog/</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -255,35 +255,49 @@
   <!-- Articles Blog - Prioritaires -->
   <url>
     <loc>https://www.litalien.fr/blog/pates-truffe-aix-en-provence</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/blog/pates-meule-parmesan</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/blog/gnocchis-maison-aix</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/blog/meilleur-restaurant-italien-aix</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://www.litalien.fr/blog/ou-manger-italien-aix</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.litalien.fr/blog/traiteur-italien-aix-en-provence</loc>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.litalien.fr/blog/epicerie-italienne-aix-en-provence</loc>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
